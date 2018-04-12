@@ -24,7 +24,7 @@
 
 | 原图：虎斑猫和可卡犬 | 网络预测为可卡犬(run_class=None) |
 | :---:  | :----: |
-| ![原图](./demo/cat_dog.png) | ![可卡犬](./demo/cat_dog_o.png) |
+| ![原图](./demo/cat_dog.jpg) | ![可卡犬](./demo/cat_dog_o.png) |
 
 
 | 指定类别为虎斑猫(run_class=282) | 指定类别为可卡犬(run_class=220) |
