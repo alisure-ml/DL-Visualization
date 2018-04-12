@@ -1,6 +1,6 @@
 ## Grad CAM
 
-博客地址: [可视化](https://alisure.github.io/2018/04/12/DL/%E5%8F%AF%E8%A7%86%E5%8C%96/)
+理论上的说明，请参考博客中的内容: [可视化](https://alisure.github.io/2018/04/12/DL/%E5%8F%AF%E8%A7%86%E5%8C%96/)
 
 
 ## Paper
