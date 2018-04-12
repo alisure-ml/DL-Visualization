@@ -32,6 +32,11 @@
 | ![虎斑猫](./demo/cat_dog_282.png) | ![狗](./demo/cat_dog_220.png) |
 
 
+## 预训练
+
+下载模型[resnet_v2_50_2017_04_14](http://download.tensorflow.org/models/resnet_v2_50_2017_04_14.tar.gz)，解压到`ckpt`下即可。
+
+
 ## 运行
 
 ```python
