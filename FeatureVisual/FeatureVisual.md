@@ -1,5 +1,7 @@
 ## 特征图可视化
 
+> [https://github.com/alisure-ml/DL-Model](https://github.com/alisure-ml/DL-Model/tree/master/tensorflow-demo/vgg)
+
 > 对于一个好的模型，其特征图中的值是有含义的。因此，可以可视化特征图来查看网络的训练情况。
 
 

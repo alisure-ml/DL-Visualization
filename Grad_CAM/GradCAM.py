@@ -143,11 +143,11 @@ def main(_):
     need_end_points = [end_points["PrePool"], end_points["Logits"], end_points["predictions"]]
 
     # 4.准备好前面三部分后，开始可视化
-    grad_cam = GradCAM(inputs, need_end_points, image_file_name="./demo/cat.jpg",  num_classes=num_classes,
-                       result_size=result_size, result_file_name="./demo/cat_o.png",
+    grad_cam = GradCAM(inputs, need_end_points, image_file_name="./demo/cat_dog.jpg",  num_classes=num_classes,
+                       result_size=result_size, result_file_name="./demo/cat_dog_o.png",
                        labels=labels, checkpoint_path="./ckpt/resnet_v2_50.ckpt")
     # 当run_class为某一个类别时，对分类为该类别的像素进行可视化
-    grad_cam.run(run_class=None)
+    grad_cam.run(run_class=222)
     pass
 
 if __name__ == '__main__':
